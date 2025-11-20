@@ -3,10 +3,10 @@ import React, { useState } from "react";
 export default function Header(){
     return(
         <header className="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md shadow-sm z-50">
-            <nav className="max-w-5xl mx-auto flex justify-between items-center py-4 px-6">
+            <nav className="max-w-5xl mx-auto flex justify-between items-center py-4 px-6 transition nav-underline">
 
                     <a href="#hero" className="text-xl font-semibold tracking-tight">
-                        Eliot<span className="text-blue-600">.Dev</span>
+                        Eliot<span className="text-blue-500">.Dev</span>
                     </a>
 
                 <ul className="flex items-center gap-6 text-gray-700 font-medium">

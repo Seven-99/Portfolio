@@ -12,3 +12,126 @@
 .animate-scroll {
   animation: scroll 20s linear infinite;
 };
+
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+};
+
+.animation.fadeSlideUp {
+    animation: fadeSlideUp 0.35s ease-out forwards;
+};
+
+.hover-border-glow::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+};
+
+.hover-border-glow:hover::after{
+    border-color: #38bdf8;
+    box-shadow:  0 0 8px #38bdf8aa;
+};
+
+.nav-underline::after{
+    content: "";
+    position:absolute;
+    width: 0%;
+    height: 2px;
+    left: 50%;
+    bottom: -2px;
+    background-color: #0ea5e9;
+    transition: 0.25s ease;
+};
+
+.nav-underline:hover::after{
+    width: 100%;
+    left: 0;
+};
+
+.bg-noise-pattern {
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  background-size: 300px;
+};
+
+.loading-badge {
+  background: #0d6efd;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dots::after {
+  content: "";
+  animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0% { content: ""; }
+  25% { content: "."; }
+  50% { content: ".."; }
+  75% { content: "..."; }
+  100% { content: ""; }
+};
+
+
+/*.starry-bg {
+  background: #0b0f19;
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, #1e90ff, transparent),
+    radial-gradient(2px 2px at 80px 120px, #1e90ff, transparent),
+    radial-gradient(2px 2px at 200px 80px, #1e90ff, transparent),
+    radial-gradient(2px 2px at 300px 200px, #1e90ff, transparent),
+    radial-gradient(2px 2px at 400px 150px, #1e90ff, transparent),
+    radial-gradient(2px 2px at 500px 300px, #1e90ff, transparent);
+  background-size: 600px 600px;
+  animation: starScroll 18s linear infinite;
+}
+
+@keyframes starScroll {
+  from { background-position: 0 0; }
+  to { background-position: -600px 600px; }
+}
+
+
+/*.circuit-bg {
+    background: #0b0f19;
+    position: relative;
+    overflow: hidden;
+};
+
+.circuit-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-image:
+    linear-gradient(90deg, rgba(0, 255, 255, 0.15) 1px, transparent 1px),
+    linear-gradient(rgba(0, 255, 255, 0.08) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: circuitMove 15s linear infinite;
+    filter: drop-shadow(0 0 6px #00eaff);
+};
+
+@keyframes circuitMove {
+    from {
+        transform: translate(-20%, -20%);
+    }
+    to{
+        transform: translate(0%, 0%);
+    }
+};

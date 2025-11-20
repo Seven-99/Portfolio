@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function Footer(){
     return(
-        <footer class="bg-[#0d1117] text-gray-300 py-8">
+        <footer class="bg-[#0A0F1F] text-gray-300 py-8">
             <div class="max-w-4xl mx-auto flex flex-col items-center gap-4">
             <p className="text-sm tracking-wide">
                 {new Date().getFullYear()} Eliot Francisco Gutierrez - All rights reserved</p>

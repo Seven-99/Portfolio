@@ -86,8 +86,9 @@ export default function Contact(){
           {/* Botón */}
           <div className="flex justify-center">
             <button type="submit"
-              className="w-40 py-3 rounded-md bg-blue-600 hover:bg-blue-700 
-              transition font-semibold text-white text-lg shadow-white/20"
+              className="px-6 py-3 rounded-xl bg-blue-500 text-white font-semibold 
+                   hover:bg-[#38BDF8] transition-all duration-300 
+                   hover:shadow-[0_0_20px_#38BDF8aa] animate-fadeSlideUp"
             >
               {loading ? "Sending..." : sent ? "Sent!" : "Send Message"}
             </button>

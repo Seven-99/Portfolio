@@ -8,7 +8,9 @@ export default function Projects() {
 
             <div className="grid md-grid-cols-2 gap-8">
                 <div>
-                <span className="inline-block mt-3 px-3 py-2 text-sm bg-blue-600 rounded-full">In progress...</span>
+                    <div class="loading-badge">
+                        In progress<span class="dots"></span>
+                    </div>
 
                 <h3 className="text-2xl font-semibold">Learning & Building</h3>
 

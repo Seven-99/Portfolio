@@ -7,7 +7,7 @@ export default function About(){
             <h2 className="text-3xl font-bold mb-6">About <span className="text-blue-500">me</span></h2>
 
             <p className="text-gray-300 leading-relaxed mb-6">Hi, i'm <span className="text-blue-500 font-medium">Eliot Francisco Gutierrez </span>
-            I'm a web development student curently expanding my knowledge in
+            I'm a web development student currently expanding my knowledge in
             <span className="text-blue-500 font-medium"> .NET </span> and <span className="text-blue-500 font-medium"> C#</span>, while also learning how to 
             debug code effectively. I enjoy understanding how things work
             and improving my ability to analyze, detect, and fix issues efficiently.
@@ -18,7 +18,7 @@ export default function About(){
             as I continue building a more complete and modern tech stack.
             <br /><br />
             My goal is to keep improving as a developer and create clean, useful and well-structured
-            projects as i grow in the industry.</p>
+            projects as I grow in the industry.</p>
         </section>
         </div>
     );

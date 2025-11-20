@@ -10,7 +10,7 @@ import Footer from '../components/footer'
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-[#0A0F1F] bg-noise-pattern text-slate-200">
       <Header />
 
       <Home />

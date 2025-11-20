@@ -11,8 +11,8 @@ import React from 'react'
 
 export default function Home() {
     return(
-        <div className="min-h-screen bg-gray-900 text-white">
-            <main className="container mx-auto px-4 py-16 bg-[#0d1117]">
+        <div className="min-h-screen bg-[#0A0F1F] text-white">
+            <main className="container mx-auto px-4 py-16 bg-[#0A0F1F]">
 
                 <section id="hero" className="text-center py-20">
 
@@ -26,7 +26,10 @@ export default function Home() {
                     Always learning, always improving.</p>
 
                     <div className="flex justify-center gap-4 mt-6">
-                        <a href="#projects" className="px-6 py-3 bg-blue-600 rounded-md hover:bg-blue-700">
+                        <a href="#projects"
+                         className="px-6 py-3 rounded-xl bg-blue-500 text-white font-semibold 
+                                    hover:bg-[#38BDF8] transition-all duration-300 
+                                    hover:shadow-[0_0_20px_#38BDF8aa] animate-fadeSlideUp">
                             View my work
                         </a>
                         <a href="#contact" className="px-6 py-3 bg-gray-800 rounded-md hover:bg-gray-700">
