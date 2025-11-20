@@ -22,6 +22,11 @@ export default function Contact(){
         setLoading(false);
         setSent(true);
         e.target.reset();
+
+        setTimeout(() => {
+          setSent(false);
+      }, 3000);
+
       })
       .catch((error) => {
         setLoading(false);
@@ -93,4 +98,4 @@ export default function Contact(){
       </div>
     </section>
     )
-}
+};
