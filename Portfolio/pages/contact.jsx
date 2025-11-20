@@ -12,9 +12,9 @@ export default function Contact(){
     e.preventDefault();
     setLoading(true);
 
-    const serviceID = "TU_SERVICE_ID";
-    const templateID = "TU_TEMPLATE_ID";
-    const publicKey = "TU_PUBLIC_KEY";
+    const serviceID = "service_jnd5j99";
+    const templateID = "template_abvthgr";
+    const publicKey = "HHePpcopFL0-GqV0m";
 
     emailjs
       .sendForm(serviceID, templateID, e.target, publicKey)
