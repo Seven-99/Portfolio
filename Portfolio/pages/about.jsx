@@ -13,7 +13,7 @@ export default function About(){
             and improving my ability to analyze, detect, and fix issues efficiently.
             <br /><br />
             I have experience with <span className="text-blue-500 font-medium">HTML, Css, Tailwind, React, Javascript </span>
-            and <span className="text-blue-500 font-medium">MySQL</span> and I'm comfortable using <span>Git</span>
+            and <span className="text-blue-500 font-medium">MySQL</span> and I'm comfortable using <span className="text-blue-500 font-medium">Git </span>
             for version control. I'm also interested in exploring <span className="text-yellow-500 font-medium">Azure </span>
             as I continue building a more complete and modern tech stack.
             <br /><br />
