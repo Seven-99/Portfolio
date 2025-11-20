@@ -49,6 +49,7 @@ export default function Contact(){
             <label className="text-gray-300 mb-1">Name</label>
             <input
               type="text"
+              name="user_name"
               className="bg-[#0d1226] border border-white/10 text-white p-3 rounded-lg
                focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Your Name"
@@ -60,6 +61,7 @@ export default function Contact(){
             <label className="text-gray-300 mb-1">Email</label>
             <input
               type="email"
+              name="user_email"
               className="bg-[#0d1226] border border-white/10 text-white p-3 rounded-lg
                focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="your@email.com"
