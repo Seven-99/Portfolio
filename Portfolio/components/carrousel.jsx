@@ -19,7 +19,8 @@ export default function Carrousel() {
   return(
     <div className="w-full overflow-hidden py-12 bg [#0d1117]">
         <h2 className="text-center text-3xl font-bold mb-6 text-white">
-            Technologies I Use</h2>
+            Technologies</h2>
+            <br /><br />
 
             <div className="whitespace-nowrap flex overflow-hidden">
                 <div className="flex gap-16 items-center animate-scroll"
