@@ -1,4 +1,5 @@
 import Carrousel from "../components/carrousel";
+import CvAcordion from "../components/CVacordion";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Potrait from "../components/potrait";
@@ -28,12 +29,16 @@ export default function Home() {
                 className="flex flex-col md:flex-row items-center md:items-start 
                             justify-center gap-12 md:gap-20 py-10"
                 >
-                <div className="animate-fade-in">
+               {/*  <div className="animate-fade-in">
                     <Potrait />
-                </div>
+                </div>*/}
 
                 <div className="max-w-xl animate-fade-in">
                     <About />
+                </div>
+                    <CvAcordion />
+                <div>
+
                 </div>
                 </section>
 
